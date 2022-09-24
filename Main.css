@@ -1,0 +1,194 @@
+@import (url "https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #f69709;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+li, a, button {
+  font-family: "Archivo";
+  font-weight: 500;
+  font-size: ;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+ 
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin-right: 100px;
+  margin-left: 100px; 
+
+}
+
+nav {
+  display:flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 40px 18px ;
+}
+
+
+nav ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+}
+
+.header-logo {
+  cursor: pointer;
+}
+
+button {
+  background:var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.watch-live {
+  color: red;
+}
+
+.hero .container {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.hero-heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+  font-family: "Archivo";
+}
+
+.hero-heading h1 {
+  font-family: "Archivo";
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hero-subheading {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-social-icons {
+  display: flex;
+  list-style-type: none;
+}
+
+.hero-subheading p { 
+  font-style: "Archivo";
+  font-size: "80px";
+  font-weight: 500px;
+}
+
+.social-icon {
+  background-color: black;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.play-btn {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 50%; 
+  margin-left: -48px;
+  margin-top: 200px; 
+}
+
+.upcoming-event {
+  background-color: black;
+
+}
+
+.upcoming-event .container {
+ display: flex;
+ margin: 50px;
+ background: black;
+ justify-content: space-between;
+}
+
+.section-title {
+  background: black;
+  margin-top: 70px;
+}
+.title-text {
+  text-transform: uppercase;
+  font-family: "Archivo";
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 80px; 
+  background: black;
+  color: white;
+}
+
+.upcoming-event-row {
+ background: black;
+ display: flex;
+}
+
+.event-left-column {
+  background: black;
+  margin-top: 200px;
+  margin-left: -200px;
+  margin-right: -100px;
+}
+
+.event-right-column {
+  background: black;
+}
+
+.upcoming-event-image {
+  margin: 100px;
+
+}
+.event-left-column .one {
+  font-family: "Archivo";
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  background: black;
+}
+
+.event-left-column .two {
+  font-size: 40px;
+  font-family: "Archivo";
+  text-transform: uppercase;
+}
+
+.event-left-column .three {
+  font-size: 20px;
+  font-family: "Archivo";
+  text-transform: uppercase;
+}
+
+]
+
+
+
+
+
+
