@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Throne Worship</title>
-    <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
  <header>
-    <div class="container">
+    <div class="header-container">
         <img class="header-logo" src="images\TW Horizontal.svg" alt="Header Logo">
 
         <nav>
-            <ul>
+            <ul class="first-ul">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Event</a></li>
                 <li><a href="#">Resources</a></li>
@@ -21,10 +23,16 @@
             </ul>
 
             <ul class="second-ul">
-                <li><a class="watch-live" href="#">Watch Live</a></li>
-                <li><a class="register-btn" href="#"><button>Register</button></a></li>
+
+                <li>
+                    <span class="material-symbols-outlined">
+                    radio_button_checked
+                    </span><a class="watch-live" href="#">Watch Live</a>
+                </li>
             </ul>
+            <a href="#"><button class="regbtn">Register</button></a>
         </nav>
+         
     </div>
 </header> 
  
@@ -36,7 +44,7 @@
         </div>
 
         <div class="hero-subheading">
-            <p>We are a non-denomination fellowship of God lovers </p>
+            <h4 class="sub-heading-text">We are a non-denomination fellowship of God lovers.</h4>
             <ul class="hero-social-icons">
                 <li><a class="social-icon" href="#"><img src="images\Twitter.svg" alt="Twitter Icon"></a></li>
                 <li><a class="social-icon" href="#"><img src="images\LinkedIn.svg" alt="LinkedIn Icon"></a></li>
@@ -52,16 +60,16 @@
  </section>
 
  <section class="upcoming-event">
-    <div class="container">
-        <div class="section-title">
-            <p class="title-text">Upcoming Event</p>    
+    <div class="upcoming-event-container">
+        <div class="upcoming-event-section-title">
+            <h4 class="upcoming-event-title-text">Upcoming Event</h4>    
         </div>
         <div class="upcoming-event-row">
             <div class="event-left-column">
-            <p class= "one">September 2022 Holy Ghost Party</p>
-            <p class="two" >A House of Worship <br> for Yahuah Elohim.</p>
-            <p class="three" >Worship While You Wait | 1 Cor. 6:19</p>
-            <a class="register-btn" href="#"><button>Register</button></a>
+            <h6 September class= "one">September 2022 Holy Ghost Party</h6>
+            <h2 class="two" >A House of Worship <br> for Yahuah Elohim.</h2>
+            <h4 class="three" >Worship While You Wait | 1 Cor. 6:19</h4>
+            <a href="#"><button class="event-btn" href=>Register</button></a>
             </div>
             
             <div class="event-right-column">
@@ -73,58 +81,75 @@
  </section>
 
  <section class="latest-event">
-    <div class="container">
-        <div class="section-title">
-            <p>Latest Event</p>
+    <div class="latest-event-container">
+        <div class="latest-event-section-title">
+            <h4 class="latest-event-title-text">Latest Event</h4>
         </div>
 
-        <div class="section-heading">
-            <h1>Unsealed Worship Programme</h1>
-        </div>
-
-        <div class="section-subheading">
+        <div class="section-body">
+            <h2>Unsealed Worship Programme</h2>
+        
+            <div class="section-subheading">
             <p clas="pastor-name">PASTOR CHRIS AKONI AND AYAN JESU</p>
             <p class="date">SATURDAY, JULY 16</p>
+            </div>
+
+            <div class="latest-event-images">
+            <img class="latest-event-main-image" src="images\pexels-yan-krukov-9002783 1.png" alt="Latest Event Image">
+            <img class="play-btn" src="images\play_circle.svg" alt="Play Button">
+            </div>
+
         </div>
 
-        <img src="images\pexels-yan-krukov-9002783 1.png" alt="Latest Event Image">
+        
     </div>
  </section>
 
  <section class="resources">
-    <div class="conatiner">
-        <div class="section-title">
-            <p>Explore All Our</p>
+    <div class="resources-container">
+        <div class="resources-section-title">
+            <h4>Explore All Our</h4>
             <h2>Resources</h2>
         </div>
 
-        <div class="row">
+        <div class="resources-row">
             <div class="resources-column">
-                <img src="images\MY CUP RUNNETH OVER 1.png" alt="Resources Image">
-                <h2>Article</h2>
-                <h1>Making Worship a<br>Lifestyle</h1>
-                <p>Something for the whole family.<br>Join us as we delve into the<br>scriptures to learn more about . . .</p>
-                <p>Writen by Olayinka Aknamu</p>
+                <img class="resources-image" src="images\MY CUP RUNNETH OVER 1.png" alt="Resources Image">
+                
+                <div class="resources-column-text">
+                    <h6>Article</h6>
+                    <h3>Making Worship a<br>Lifestyle</h3>
+                    <p class="excerpt">Something for the whole family.<br>Join us as we delve into the<br>scriptures to learn more about . . .</p>
+                    <p class="author">Writen by Olayinka Aknamu</p>
+                </div>
                 
                 <img class="resources-play-icon" src="images\play_circle.svg" alt="Play Icon">
             </div>
 
             <div class="resources-column">
-                <img src="images\MY CUP RUNNETH OVER 1.png" alt="Resources Image">
-                <h2>Article</h2>
-                <h1>Making Worship a<br>Lifestyle</h1>
-                <p>Something for the whole family.<br>Join us as we delve into the<br>scriptures to learn more about . . .</p>
-                <p>Writen by Olayinka Aknamu</p>
+                <img class="resources-image "src="images\MY CUP RUNNETH OVER 1.png" alt="Resources Image">
+                
+                <div class="resources-column-text">
+                    <h6>Article</h6>
+                    <h3>Making Worship a<br>Lifestyle</h3>
+                    <p class="excerpt">Something for the whole family.<br>Join us as we delve into the<br>scriptures to learn more about . . .</p>
+                    <p class="author">Writen by Olayinka Aknamu</p>
+                </div>
                 
                 <img class="resources-play-icon" src="images\play_circle.svg" alt="Play Icon">
             </div>
 
             <div class="resources-column">
-                <img src="images\What Do The Pictures You Pick Say About You_ 1.png" alt="Resources Image">
-                <h2>Interview</h2>
-                <h1>Making Worship a<br>Lifestyle</h1>
-                <p>Something for the whole family.<br>Join us as we delve into the<br>scriptures to learn more about . . .</p>
-                <p>Hosted by Olayinka Aknamu</p>
+                <img class="resources-image" src="images\What Do The Pictures You Pick Say About You_ 1.png" alt="Resources Image">
+                <div class="resources-column-text">
+                    <h6>Interview</h6>
+                    <h3>Making Worship a<br>Lifestyle</h3>
+                    <p class="excerpt">Something for the whole family.<br>Join us as we delve into the<br>scriptures to learn more about . . .</p>
+                    <p class="author">Hosted by Olayinka Aknamu <span class="material-symbols-outlined">
+                        arrow_right_alt
+                        </span>
+                    </p>
+                </div>
                 
                 <img class="resources-play-icon" src="images\play_circle.svg" alt="Play Icon">
             </div>
