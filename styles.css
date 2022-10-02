@@ -121,6 +121,7 @@ h1 {
 
 .sub-heading-text {
   margin-left: auto;
+  margin-right: 25px;
   font-size: 18px;
   font-weight: 800;
 }
@@ -133,7 +134,7 @@ h1 {
 }
 
 .social-icon {
-  fill: black;
+
 }
 
 .hero-image {
@@ -189,7 +190,7 @@ h1 {
   margin-top: 130px;
   margin-right: -37px;
   position: inherit;
-  z-index: 1;
+  z-index: 2;
 }
 
 .event-left-column h6 {
@@ -219,7 +220,12 @@ h1 {
   font-size: 18px;
   font-weight: 800;
   cursor: pointer;
-  margin-left: -30px;
+}
+
+.event-right-column {
+  z-index: 1;
+  position: relative;
+  color: black;
 }
 
 .upcoming-event-image {
@@ -589,7 +595,6 @@ HTML document if you need to edit it*/
   padding-right: 13px;
 }
 
-.
 
 
 
