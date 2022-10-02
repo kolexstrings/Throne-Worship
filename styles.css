@@ -54,7 +54,7 @@ body {
   padding-bottom: 50px;
 }
 
-a {
+.first-ul a {
   text-decoration: none;
   font-family: "Archivo", sans-serif;
   font-weight: 800;
@@ -66,19 +66,23 @@ a {
 
 .watch-live {
   padding-right: 30px;
+  padding-left: 30px;
   color: red;
+  text-decoration: none;
+  font-family: "Archivo", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+ 
+  text-transform: uppercase;
 }
 
-.material-symbols-outlined {
-  color: red;
-  margin-right: -20px;
-  vertical-align: sub; 
-}
+/*NB Material Icon button for Watch Live has an inline css
+check HTML File if you need to style it*/
 
 .regbtn {
   background-color: var(--button-color);
   border: none;
-  padding: 15px 30px;
+  padding: 17px 34px;
   text-transform: uppercase;
   color: white;
   font-family: "Archivo", sans-serif;
@@ -208,7 +212,7 @@ h1 {
 .event-btn {
   background-color: var(--button-color);
   border: none;
-  padding: 15px 30px;
+  padding: 17px 34px;
   text-transform: uppercase;
   color: white;
   font-family: "Archivo", sans-serif;
@@ -286,6 +290,8 @@ h1 {
 
 .resources-container {
   margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .resources-section-title {
@@ -305,52 +311,292 @@ h1 {
   font-size: 50px;
   font-weight: 800;
 }
-
+/* Row and Columns*/
 .resources-row{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  margin-right: 70px;
+  margin-left: 70px;
 }
 
 .resources-column {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .resources-image {
-  max-width: 95%;
+  max-width: 100%;
 }
 
 .resources-column-text {
   background-color: black;
+  max-width: 100%;
+  padding: 60px 50px 20px 50px;
 }
-
-.resources-column-text h6 {
+/*Article and Interview title */
+.article {
   color: #EB1D36;
   text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.interview {
+  color: var(--button-color);
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 .resources-column-text h3 {
   color: white;
   font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 30px;
 }
 
 .excerpt {
   color: white;
-  font-size: 18px;
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.column-buttom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .author {
   color: white;
   font-size: 11px;
+  line-height: 16px;
 }
 
-.material-symbols-outlined {
+/* Learn More Section*/
+
+.learn-more-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #EBE8E2;
+  margin-top: 150px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 40px 50px;
+  position: relative;
+
+}
+
+.learn-more-image {
+  max-width: 100%;
+}
+
+.learn-more-left-column h2 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.learn-more-btn {
+  margin-left: -25px;
+  padding-right: 30px;
+  padding-left: 30px;
+  color: black;
+  text-decoration: none;
+  font-family: "Archivo", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+/*NB Learn more arrow icon is style with an inlne css
+please make reference to the HTML file if you need to style it*/
+
+/*Stay Ahead Section*/
+
+.stay-ahead-section {
+  background-color: black;
+  margin-top: -100px;
+}
+
+.stay-ahead-container {
+  margin-right: 80px;
+  margin-left: 80px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+/*NB Hr tag (The horizontal line) was styled inline
+in the HTML file) please make reference to the 
+HTML document if you need to edit it*/
+
+.stay-ahead-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 40px ;
+}
+
+.stay-ahead-container h2 {
+  font-size: 80px;
+  font-weight: 800;
+  color: white;
+  line-height: 75px;
+}
+
+.stay-ahead-btn {
+  background-color: var(--button-color);
+  border: none;
+  padding: 17px 34px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Archivo", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*Footer Section*/
+
+.footer-section {
+  background-color: black;
+}
+
+.footer-container {
+  padding: 20px 50px;
+}
+/*Footer Top Row*/
+
+.footer-top-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 140px;
+  margin:  
+}
+
+/*Footer Top Left Column*/
+
+.footer-top-left-column {
+  display: flex;
+}
+
+.footer-logo {
+  margin-right: 200px;
+}
+/* Footer Top Right Column*/
+
+.footer-top-left-column ul {
+  list-style: none;
+}
+
+.footer-nav-menu {
+  color: white;
+  text-transform: capitalize;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  padding-right: 70px;
+}
+
+.email-placeholder {
+  padding: 16px 80px 13px 20px;
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  text-align: left;
+  border-style: solid;
+  border-color: white;
+  margin-right: -5px;
+}
+
+.form-submit-btn{
+  border: none;
+  padding: 14px 36px;
   background-color: white;
   color: black;
-  style: circle;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
 }
+
+.subscribe-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  font-stretch: expanded;
+}
+
+.subscribe-sub-text {
+  color: white;
+  font-size: 11px;
+  margin-top: 25px;
+  line-height: 15px;
+  font-stretch: expanded;
+}
+/*Footer Bottom Row*/
+
+.footer-bottom-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+/*Bottom Left Column*/
+.copyright-text {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.contact-details {
+  color: grey;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*Footer Bottom Right Column*/
+
+.footer-bottom-right-column {
+  display: flex;
+}
+
+.footer-bottom-right-column ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms-and-privacy {
+  color: white;
+  font-size: 11px;;
+  cursor: pointer;
+  text-decoration: none;
+  padding-right: 35px;
+}
+
+.footer-social-icons-grouped {
+  margin-left: 145px;
+}
+
+.footer-social-icons {
+  padding-right: 13px;
+}
+
+.
+
+
+
+
+
+
+
 
 
 
